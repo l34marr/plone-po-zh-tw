@@ -1,0 +1,68 @@
+# AddRemoveWidget
+# Radim Novotny <radim.novotny@corenet.cz>, 2006
+msgid ""
+msgstr ""
+"Project-Id-Version: AddRemoveWidget\n"
+"POT-Creation-Date: 2006-11-08 10:01+0000\n"
+"PO-Revision-Date: 2012-02-29 17:20+0800\n"
+"Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: zh-tw\n"
+"Language-Name: Traditional Chinese\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: AddRemoveWidget\n"
+
+#. Default: "Add "
+#: ../skins/AddRemoveWidget/widget_addremove.pt
+msgid "button_add_item"
+msgstr "選擇 >"
+
+#. Default: " Add New "
+#: ../skins/AddRemoveWidget/widget_addremove.pt
+msgid "button_add_new_item"
+msgstr "新增其他"
+
+#. Default: "Down"
+#: ../skins/AddRemoveWidget/widget_addremove.pt
+msgid "button_down_item"
+msgstr "↓"
+
+#. Default: " Remove"
+#: ../skins/AddRemoveWidget/widget_addremove.pt
+msgid "button_remove_item"
+msgstr "< 不選"
+
+#. Default: "Up"
+#: ../skins/AddRemoveWidget/widget_addremove.pt
+msgid "button_up_item"
+msgstr "↑"
+
+#. Default: "Available:"
+#: ../skins/AddRemoveWidget/widget_addremove.pt
+msgid "label_available_items"
+msgstr "選項："
+
+#. Default: "New value:"
+#: ../skins/AddRemoveWidget/widget_addremove.pt
+msgid "label_new_item_value"
+msgstr "其他："
+
+#. Default: "Other:"
+#: ../skins/AddRemoveWidget/widget_combobox.pt
+msgid "label_other"
+msgstr "其他："
+
+#. Default: "Selected:"
+#: ../skins/AddRemoveWidget/widget_addremove.pt
+msgid "label_selected_items"
+msgstr "已經選擇："
+
+#. Default: "Please select an item"
+#: ../skins/AddRemoveWidget/widget_addremove_vars.js
+msgid "alert_please_select_an_item"
+msgstr "請先選擇一個項目"
+
