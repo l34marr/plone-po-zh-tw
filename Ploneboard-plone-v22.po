@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ploneboard 2.2\n"
 "POT-Creation-Date: 2006-06-06 13:53+0000\n"
-"PO-Revision-Date: 2012-06-03 16:32+0800\n"
-"Last-Translator: Tsung Wei <marr.tw@gamil.com>\n"
+"PO-Revision-Date: 2012-06-07 14:30+0800\n"
+"Last-Translator: TsungWei Hu <marr.tw@gamil.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -25,7 +25,7 @@ msgid "old_date_format: ${year} ${month} ${day} ${hours}:${minutes}"
 msgstr ""
 
 msgid "Message Board"
-msgstr ""
+msgstr "討論區"
 
 msgid "Comment"
 msgstr "留言"
@@ -34,75 +34,75 @@ msgid "Conversation"
 msgstr "討論"
 
 msgid "Open"
-msgstr ""
+msgstr "公開"
 
 msgid "Hide"
-msgstr ""
+msgstr "隱藏"
 
 msgid "Hidden"
-msgstr ""
+msgstr "隱藏"
 
 msgid "Comment added"
-msgstr ""
+msgstr "留言已新增"
 
 msgid "Require membership to post"
-msgstr ""
+msgstr "登入帳號後才能留言"
 
 msgid "Make member-posting"
-msgstr ""
+msgstr "限會員留言"
 
 msgid "Free for all"
-msgstr ""
+msgstr "所有人都能留言"
 
 msgid "Make free-for-all"
-msgstr ""
+msgstr "所有人都能留言"
 
 msgid "Make moderated"
-msgstr ""
+msgstr "留言要被審核"
 
 msgid "Moderated forum"
-msgstr ""
+msgstr "留言要被審核"
 
 msgid "Make private"
-msgstr ""
+msgstr "設為私有"
 
 msgid "Private to members only"
-msgstr ""
+msgstr "會員才能使用"
 
 msgid "Active"
-msgstr ""
+msgstr "啟用"
 
 msgid "Activate"
-msgstr ""
+msgstr "啟用"
 
 msgid "Lock"
 msgstr "鎖定"
 
 msgid "Locked"
-msgstr ""
+msgstr "鎖定"
 
 #. Flat conversion view
 msgid "conversation_view"
-msgstr ""
+msgstr "展開式瀏覽"
 
 #. Threaded conversion view
 msgid "threaded_conversation_view"
-msgstr ""
+msgstr "串列式瀏覽"
 
 msgid "Moderate"
-msgstr ""
+msgstr "審核"
 
 msgid "Waiting for moderator"
-msgstr ""
+msgstr "等待審核"
 
 msgid "Rejected"
-msgstr ""
+msgstr "退回"
 
 msgid "Public"
-msgstr ""
+msgstr "公開"
 
 msgid "Retracted"
-msgstr ""
+msgstr "收回"
 
 msgid "Comment is pending moderation"
 msgstr "留言正等待審核"

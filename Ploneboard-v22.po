@@ -3,9 +3,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Ploneboard 2.2\n"
 "POT-Creation-Date: 2009-04-03 22:24+0000\n"
-"PO-Revision-Date: 2012-06-03 16:30+0800\n"
+"PO-Revision-Date: 2012-06-07 10:30+0800\n"
 "Last-Translator: TsungWei Hu <marr.tw@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -34,27 +34,27 @@ msgstr "更改"
 
 #: ./skins/ploneboard_scripts/add_comment_script.cpy:47
 msgid "Comment added"
-msgstr ""
+msgstr "留言已新增"
 
 #: ./browser/comment.py:259
 msgid "Comment deleted"
-msgstr ""
+msgstr "留言已刪除"
 
 #: ./skins/ploneboard_scripts/add_comment_script.cpy:45
 msgid "Comment is pending moderation"
-msgstr ""
+msgstr "留言等待審核中"
 
 #: ./skins/ploneboard_scripts/add_conversation_script.cpy:43
 msgid "Conversation added"
-msgstr ""
+msgstr "留言已新增"
 
 #: ./browser/comment.py:254
 msgid "Conversation deleted"
-msgstr ""
+msgstr "留言已刪除"
 
 #: ./skins/ploneboard_scripts/add_conversation_script.cpy:41
 msgid "Conversation is pending moderation"
-msgstr ""
+msgstr "留言等待審核中"
 
 #: ./skins/ploneboard_scripts/add_dpmapping_script.cpy:22
 msgid "Data provider updated."
@@ -66,7 +66,7 @@ msgstr "討論區"
 #. Default: "Log in to add comments"
 #: ./skins/ploneboard_templates/comment_view.pt:191
 msgid "Log in to add comments"
-msgstr ""
+msgstr "登入帳號後可以留言"
 
 #: ./skins/ploneboard_scripts/validate_add_comment.vpy:46
 msgid "Please correct the indicated errors."
@@ -75,22 +75,22 @@ msgstr ""
 #. Default: "Post"
 #: ./skins/ploneboard_templates/add_comment_preview.cpt:69
 msgid "Post"
-msgstr ""
+msgstr "張貼留言"
 
 #. Default: "Post comment"
 #: ./skins/ploneboard_templates/add_comment_form.cpt:168
 msgid "Post comment"
-msgstr ""
+msgstr "張貼留言"
 
 #. Default: "Reply to this"
 #: ./skins/ploneboard_templates/comment_view.pt:180
 msgid "Reply to this"
-msgstr ""
+msgstr "回覆"
 
 #. Default: "Start a new Conversation"
 #: ./skins/ploneboard_templates/forum_view.pt:76
 msgid "Start a new Conversation"
-msgstr ""
+msgstr "張貼新的討論"
 
 #: ./skins/ploneboard_scripts/remove_transform_script.cpy:23
 msgid "Transform %s removed"
@@ -99,54 +99,54 @@ msgstr ""
 #. Default: "View profile"
 #: ./skins/ploneboard_templates/comment_view.pt:83
 msgid "View profile"
-msgstr ""
+msgstr "檢視作者資訊"
 
 #: ./skins/ploneboard_scripts/add_comment_script.cpy:36
 msgid "You can only add comments to conversations or comments."
-msgstr ""
+msgstr "只能回覆既有的討論或留言。"
 
 #. Default: "Add comment"
 #: ./skins/ploneboard_templates/add_comment_form.cpt:31
 msgid "add_comment"
-msgstr ""
+msgstr "新增留言"
 
 #. Default: "Add conversation"
 #: ./skins/ploneboard_templates/add_conversation_form.cpt:28
 msgid "add_conversation"
-msgstr ""
+msgstr "新增討論"
 
 msgid "alert_delete_popup"
-msgstr ""
+msgstr "確認要刪除?"
 
 #. Default: "Search"
 #: ./skins/ploneboard_templates/board_view.pt:39
 msgid "board_search_button"
-msgstr ""
+msgstr "搜尋"
 
 #. Default: "Search Boards"
 #: ./skins/ploneboard_templates/board_view.pt:32
 msgid "board_search_label"
-msgstr ""
+msgstr "輸入搜尋字詞"
 
 #. Default: "More…"
 #: ./portlet/recent.pt:39
 msgid "box_more_recent_conversations"
-msgstr ""
+msgstr "更多..."
 
 #. Default: "by ${author}"
 #: ./skins/ploneboard_templates/ploneboard_unanswered.pt:99
 msgid "by_author"
-msgstr ""
+msgstr "作者: ${author}"
 
 #. Default: "Current state:"
 #: ./skins/ploneboard_templates/comment_view.pt:163
 msgid "comment_current_state"
-msgstr ""
+msgstr "狀態: "
 
 #. Default: "Conversation"
 #: ./skins/ploneboard_templates/ploneboard_unanswered.pt:70
 msgid "conversation"
-msgstr ""
+msgstr "留言"
 
 #. Default: "Forum"
 #: ./skins/ploneboard_templates/ploneboard_unanswered.pt:71
@@ -156,12 +156,12 @@ msgstr "討論區"
 #. Default: "Posted"
 #: ./skins/ploneboard_templates/ploneboard_unanswered.pt:72
 msgid "conversation_posted"
-msgstr ""
+msgstr "討論已張貼"
 
 #. Default: "Here you can configure site settings for Ploneboard."
 #: ./browser/controlpanel.py:57
 msgid "description_ploneboard_config"
-msgstr ""
+msgstr "Ploneboard 的設定值"
 
 #. Default: "Forum name"
 #: ./skins/ploneboard_templates/board_view.pt:90
@@ -181,7 +181,7 @@ msgstr "回到 ${name}"
 #. Default: "Preview comment"
 #: ./skins/ploneboard_templates/add_comment_preview.cpt:16
 msgid "heading_preview_comment"
-msgstr ""
+msgstr "預覽"
 
 #. Default: "This portlet shows conversations with recent comments."
 #: ./portlet/recent.py:107
@@ -250,28 +250,28 @@ msgstr ""
 #. Default: "Back to discussion board"
 #: ./browser/search.pt:15
 msgid "label_back_to_board"
-msgstr ""
+msgstr "回到討論區"
 
 #. Default: "Attachments"
 #: ./skins/ploneboard_templates/add_comment_form.cpt:131
 msgid "label_body_files_posting"
-msgstr ""
+msgstr "附件"
 
 #. Default: "Body text"
 #: ./skins/ploneboard_templates/add_comment_form.cpt:91
 msgid "label_body_text_posting"
-msgstr ""
+msgstr "內文"
 
 #. Default: "by ${author}"
 #: ./skins/ploneboard_templates/board_view.pt:129
 msgid "label_by_author"
-msgstr ""
+msgstr "作者: ${author}"
 
 msgid "label_categories_board"
 msgstr ""
 
 msgid "label_category"
-msgstr ""
+msgstr "分類標籤"
 
 msgid "label_description_board"
 msgstr ""
@@ -301,12 +301,12 @@ msgstr ""
 #. Default: "Quick reply"
 #: ./skins/ploneboard_templates/conversation_view.pt:74
 msgid "label_quickreply"
-msgstr ""
+msgstr "直接回覆"
 
 #. Default: "(Required)"
 #: ./skins/ploneboard_templates/add_comment_form.cpt:65
 msgid "label_required"
-msgstr ""
+msgstr "(必填)"
 
 msgid "label_text"
 msgstr ""
@@ -314,7 +314,7 @@ msgstr ""
 #. Default: "Title"
 #: ./skins/ploneboard_templates/add_comment_form.cpt:63
 msgid "label_title_posting"
-msgstr ""
+msgstr "標題"
 
 #. Default: "Transforms"
 #: ./browser/controlpanel.py:16
@@ -324,7 +324,7 @@ msgstr ""
 #. Default: "Attachments"
 #: ./skins/ploneboard_templates/comment_view.pt:204
 msgid "legend_attachments"
-msgstr ""
+msgstr "附件"
 
 #. Default: "Log in to start a conversation"
 #: ./skins/ploneboard_templates/forum_view.pt:88
@@ -344,12 +344,12 @@ msgstr ""
 #. Default: "Most recent comment"
 #: ./skins/ploneboard_templates/board_view.pt:92
 msgid "most_recent_comment"
-msgstr ""
+msgstr "最新留言"
 
 #. Default: "Add another attachment"
 #: ./skins/ploneboard_templates/add_comment_form.cpt:155
 msgid "new_attachment"
-msgstr ""
+msgstr "新增其他附件"
 
 #. Default: "Conversations marked with ${star} have had activity since your last log-in."
 #: ./skins/ploneboard_templates/ploneboard_unanswered.pt:58
@@ -359,32 +359,32 @@ msgstr ""
 #. Default: "There are no comments in the moderation queue."
 #: ./skins/ploneboard_templates/moderation_form.pt:118
 msgid "no_comments_queued"
-msgstr ""
+msgstr "沒有留言待審"
 
 #. Default: "No conversations started"
 #: ./skins/ploneboard_templates/board_view.pt:121
 msgid "no_conversations_started"
-msgstr ""
+msgstr "沒有討論"
 
 #. Default: "No conversations found."
 #: ./skins/ploneboard_templates/ploneboard_unanswered.pt:43
 msgid "no_recent_conversations"
-msgstr ""
+msgstr "沒有留言"
 
 #. Default: "No replies yet"
 #: ./skins/ploneboard_templates/ploneboard_recent.pt:116
 msgid "no_replies_yet"
-msgstr ""
+msgstr "沒有其他留言"
 
 #. Default: "No conversations in this forum yet."
 #: ./skins/ploneboard_templates/forum_view.pt:65
 msgid "not_conversations"
-msgstr ""
+msgstr "沒有討論"
 
 #. Default: "No forums exist in this board yet, use the add menu to add forums."
 #: ./skins/ploneboard_templates/board_view_global.pt:35
 msgid "not_forums"
-msgstr ""
+msgstr "登入帳號後，可以顯示限會員使用的討論區。"
 
 #. Default: "Sorry, you do not have permission to start a new Conversation"
 #: ./skins/ploneboard_templates/forum_view.pt:96
@@ -394,12 +394,12 @@ msgstr ""
 #. Default: "Conversations"
 #: ./skins/ploneboard_templates/board_view.pt:91
 msgid "number_of_conversations"
-msgstr ""
+msgstr "留言數"
 
 #. Default: "Ploneboard configuration"
 #: ./browser/controlpanel.py:55
 msgid "ploneboard_configuration"
-msgstr ""
+msgstr "討論區設定"
 
 #. Default: "Text transformations"
 #: ./browser/controlpanel.py:60
@@ -434,17 +434,17 @@ msgstr ""
 #. Default: "Show all recent activity"
 #: ./skins/ploneboard_templates/board_view.pt:45
 msgid "show_new_conversations_all"
-msgstr ""
+msgstr "顯示最新的討論"
 
 #. Default: "Show only unanswered"
 #: ./skins/ploneboard_templates/forum_view.pt:40
 msgid "show_no_replies"
-msgstr ""
+msgstr "顯示未被回覆的討論"
 
 #. Default: "Show all unanswered"
 #: ./skins/ploneboard_templates/board_view.pt:52
 msgid "show_no_replies_all"
-msgstr ""
+msgstr "顯示未被回覆的討論"
 
 #. Default: "at"
 #: ./skins/ploneboard_templates/comment_view.pt:75
