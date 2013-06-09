@@ -1,4 +1,5 @@
-plone-po-zh-tw
-==============
+python-po-zh-tw
+===============
 
-Plone zh-tw PO maintenance.
+Plone and AskBot zh-tw PO maintenance.
+
