@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: askbot\n"
 "Report-Msgid-Bugs-To: http://askbot.org/\n"
 "POT-Creation-Date: 2013-05-18 10:00-0500\n"
-"PO-Revision-Date: 2013-05-18 18:49+0000\n"
+"PO-Revision-Date: 2013-06-08 18:49+0800\n"
 "Last-Translator: evgeny <evgeny.fadeev@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/askbot/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgstr[0] ""
 
 #: media/js/live_search.js:290
 msgid "search or ask your question"
-msgstr ""
+msgstr "搜尋問題或直接發問"
 
 #: media/js/post.js:28
 msgid "loading..."
@@ -183,7 +183,7 @@ msgstr "權限不足"
 
 #: media/js/post.js:549
 msgid "cannot pick own answer as best"
-msgstr "不能蔽掃自珍"
+msgstr "不能自賣自誇"
 
 #: media/js/post.js:552 media/js/post.js.c:1416
 msgid "please login"
