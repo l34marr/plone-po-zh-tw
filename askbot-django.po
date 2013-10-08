@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: askbot\n"
 "Report-Msgid-Bugs-To: http://askbot.org/\n"
 "POT-Creation-Date: 2013-05-18 09:59-0500\n"
-"PO-Revision-Date: 2013-06-09 12:08+0800\n"
+"PO-Revision-Date: 2013-06-21 16:08+0800\n"
 "Last-Translator: evgeny <evgeny.fadeev@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/askbot/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -2826,7 +2826,7 @@ msgstr "排除被忽略的標籤"
 
 #: const/__init__.py:322 const/__init__.py:331 const/__init__.py:343
 msgid "only interesting tags"
-msgstr "只顯示感興趣的標籤"
+msgstr "顯示感興趣的標籤"
 
 #: const/__init__.py:326 const/__init__.py:337 const/__init__.py:344
 msgid "only subscribed tags"
@@ -2958,7 +2958,7 @@ msgstr "點選觀看最近最少被更新的問題"
 
 #: const/message_keys.py:28
 msgid "by activity"
-msgstr ""
+msgstr "更新次數"
 
 #: const/message_keys.py:29
 msgid "click to see the most recently updated questions"
@@ -3493,15 +3493,15 @@ msgstr ""
 
 #: models/__init__.py:685
 msgid "Sorry, you cannot vote for your own posts"
-msgstr ""
+msgstr "不能為自己的文章評分"
 
 #: models/__init__.py:689
 msgid "Sorry your account appears to be blocked "
-msgstr ""
+msgstr "你的帳號被停用了"
 
 #: models/__init__.py:694
 msgid "Sorry your account appears to be suspended "
-msgstr ""
+msgstr "你的帳號暫時被停用"
 
 #: models/__init__.py:704
 #, python-format
@@ -3515,11 +3515,11 @@ msgstr "需要+%(points)s積分才能投反對票。"
 
 #: models/__init__.py:725
 msgid "Sorry, blocked users cannot upload files"
-msgstr ""
+msgstr "被停用的帳號不能上傳檔案"
 
 #: models/__init__.py:726
 msgid "Sorry, suspended users cannot upload files"
-msgstr ""
+msgstr "被暫時停用的帳號不能上傳檔案"
 
 #: models/__init__.py:728
 #, python-format
@@ -5405,7 +5405,7 @@ msgstr ""
 
 #: templates/users.html:60
 msgid "by username"
-msgstr "用戶名"
+msgstr "帳號名稱"
 
 #: templates/users.html:66
 #, python-format
@@ -5470,18 +5470,18 @@ msgstr ""
 
 #: templates/authopenid/complete.html:23
 msgid "User registration"
-msgstr ""
+msgstr "使用者註冊"
 
 #: templates/authopenid/complete.html:47
 msgid "<strong>Screen Name</strong> (<i>will be shown to others</i>)"
-msgstr ""
+msgstr "<strong>帳號名稱</strong> (<i>會公開顯示</i>)"
 
 #: templates/authopenid/complete.html:56
 msgid ""
 "<strong>Email Address</strong> (<i>will <strong>not</strong> be shared with \n"
 "anyone, must be valid</i>)\n"
 "                    "
-msgstr ""
+msgstr "<strong>電郵地址</stong> (<i><strong>不會</strong>對外洩露</i>)"
 
 #: templates/authopenid/complete.html:71
 #: templates/authopenid/signup_with_password.html:5
@@ -7448,7 +7448,7 @@ msgstr[0] ""
 
 #: templates/widgets/scope_nav.html:17
 msgid "ALL"
-msgstr ""
+msgstr "所有問題"
 
 #: templates/widgets/scope_nav.html:22
 msgid "see unanswered questions"
@@ -7456,7 +7456,7 @@ msgstr ""
 
 #: templates/widgets/scope_nav.html:22
 msgid "UNANSWERED"
-msgstr ""
+msgstr "未被回答"
 
 #: templates/widgets/scope_nav.html:27
 msgid "see your followed questions"
@@ -7464,7 +7464,7 @@ msgstr ""
 
 #: templates/widgets/scope_nav.html:27
 msgid "FOLLOWED"
-msgstr ""
+msgstr "追蹤中"
 
 #: templates/widgets/scope_nav.html:30
 msgid "Please ask your question here"
@@ -7569,23 +7569,23 @@ msgstr " 標籤不能為空白。"
 
 #: utils/forms.py:104
 msgid "sorry, this name is taken, please choose another"
-msgstr "對不起，該用戶名已註冊，請換一個試試"
+msgstr "該帳號已被註冊，請換一個試試"
 
 #: utils/forms.py:105
 msgid "sorry, this name is not allowed, please choose another"
-msgstr ""
+msgstr "不能使用這個帳號，請換一個試試"
 
 #: utils/forms.py:106
 msgid "sorry, there is no user with this name"
-msgstr "對不起，沒有此用戶"
+msgstr "沒有這個帳號"
 
 #: utils/forms.py:107
 msgid "sorry, we have a serious error - user name is taken by several users"
-msgstr "對不起，許多人使用該用戶, 造成錯誤"
+msgstr "許多人使用該用戶, 造成錯誤"
 
 #: utils/forms.py:108
 msgid "user name can only consist of letters, empty space and underscore"
-msgstr "用戶名字須由字元, 空白, 下標字組成"
+msgstr "帳號名稱須由字元, 空白, 底線組成"
 
 #: utils/forms.py:109
 msgid "please use at least some alphabetic characters in the user name"
@@ -7593,7 +7593,7 @@ msgstr ""
 
 #: utils/forms.py:110
 msgid "symbol \"@\" is not allowed"
-msgstr ""
+msgstr "不能使用 @ 符號"
 
 #: utils/forms.py:222
 msgid "Your email <i>(never shared)</i>"
@@ -7601,15 +7601,15 @@ msgstr ""
 
 #: utils/forms.py:224
 msgid "email address is required"
-msgstr " 電子郵件地址不能為空白"
+msgstr "電郵地址是必填欄位"
 
 #: utils/forms.py:225
 msgid "please enter a valid email address"
-msgstr "請輸入合法電子郵件地址"
+msgstr "請輸入有效的電郵地址"
 
 #: utils/forms.py:226
 msgid "this email is already used by someone else, please choose another"
-msgstr ""
+msgstr "這個電郵地址已被註冊使用，請換一個。"
 
 #: utils/forms.py:227
 msgid "this email address is not authorized"
@@ -7617,23 +7617,23 @@ msgstr ""
 
 #: utils/forms.py:265
 msgid "password is required"
-msgstr " 密碼不能為空白。"
+msgstr "密碼是必填欄位。"
 
 #: utils/forms.py:268
 msgid "Password <i>(please retype)</i>"
-msgstr ""
+msgstr "<i>(再次輸入)</i>密碼"
 
 #: utils/forms.py:269
 msgid "please, retype your password"
-msgstr ""
+msgstr "請再次輸入密碼"
 
 #: utils/forms.py:270
 msgid "sorry, entered passwords did not match, please try again"
-msgstr "對不起, 密碼不合, 請重新輸入"
+msgstr "密碼不合, 請重新輸入"
 
 #: utils/functions.py:102
 msgid "2 days ago"
-msgstr ""
+msgstr "2天前"
 
 #: utils/functions.py:104
 msgid "yesterday"
@@ -7791,11 +7791,11 @@ msgstr ""
 
 #: views/users.py:502
 msgid "user profile"
-msgstr "用戶資料"
+msgstr "帳號資料"
 
 #: views/users.py:503
 msgid "user profile overview"
-msgstr "用戶概覽"
+msgstr "帳號概覽"
 
 #: views/users.py:704
 msgid "recent user activity"
@@ -7823,11 +7823,11 @@ msgstr ""
 
 #: views/users.py:874
 msgid "profile - responses"
-msgstr "用戶資料 - 回應 "
+msgstr "帳號資料 - 回應 "
 
 #: views/users.py:916
 msgid "profile - votes"
-msgstr "用戶資料 - 投票"
+msgstr "帳號資料 - 投票"
 
 #: views/users.py:937
 msgid "user karma"
@@ -7839,11 +7839,11 @@ msgstr ""
 
 #: views/users.py:956
 msgid "users favorite questions"
-msgstr "用戶收藏的問題"
+msgstr "使用者收藏的問答"
 
 #: views/users.py:957
 msgid "profile - favorite questions"
-msgstr "用戶資料 - 收藏"
+msgstr "帳號資料 - 收藏"
 
 #: views/users.py:998 views/users.py:1002
 msgid "changes saved"
